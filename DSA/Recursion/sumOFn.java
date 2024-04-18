@@ -1,22 +1,21 @@
 package DSA.Recursion;
 
 public class sumOFn {
-    public static void printSum(int i, int n, int sum) {
-        if (i == n) {
-            sum += i;
-            System.out.println(sum);
-            return ;
+    public static int printSum(int n) {
+        if (n == 0) {
+
+            return n;
         }
 
-        sum+=i;
-        printSum(i+1,n,sum);
-        System.out.println(i);
+        int sumOFnm1 = printSum(n - 1);
+        int sumOFn = n + sumOFnm1;
+        System.out.println(n);
+        return sumOFn;
+
     }
 
     public static void main(String[] args) {
-        int n=5;
-        int i=1;
-        int sum=0;
-        printSum(i, n, sum);
+        int n = 5;
+        System.out.println("sum of 1 to 5 = " + printSum(n));
     }
 }
