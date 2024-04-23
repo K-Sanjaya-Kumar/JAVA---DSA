@@ -1,5 +1,4 @@
 package DSA.Recursion;
-
 public class sumofNnatural {
     public static int printSum(int n) {
         if (n == 0) {
