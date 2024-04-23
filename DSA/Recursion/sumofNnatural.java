@@ -18,3 +18,5 @@ public class sumofNnatural {
         System.out.println("sum of 1 to 5 = " + printSum(n));
     }
 }
+
+
