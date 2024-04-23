@@ -6,10 +6,10 @@ public class sumOFn {
 
             return n;
         }
-
+        // System.out.println(n);         //if you print (n) uper then numbers are in descending . 
         int sumOFnm1 = printSum(n - 1);
         int sumOFn = n + sumOFnm1;
-        System.out.println(n);
+         System.out.println(n);       //if you print (n) below then numbers are in ascending .
         return sumOFn;
 
     }
