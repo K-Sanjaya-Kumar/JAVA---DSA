@@ -11,7 +11,7 @@ public class sumofNdigit {
     }
 
     public static void main(String[] args) {
-        int n = 347344556;
+        int n = 3458364;
         System.out.println(printTotal(n));
     }
 }
