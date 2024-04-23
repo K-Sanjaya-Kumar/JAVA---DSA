@@ -1,6 +1,6 @@
 package DSA.Recursion;
 
-public class sumOFn {
+public class sumofNnatural {
     public static int printSum(int n) {
         if (n == 0) {
 
